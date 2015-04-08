@@ -12,4 +12,7 @@ def create_app(config='default'):
     from .website import website
     app.register_blueprint(website)
 
+    from .api import api
+    app.register_blueprint(api, url_prefix='/api')
+
     return app
