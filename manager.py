@@ -19,7 +19,7 @@ def main():
     cmd_runserver = sub_parsers.add_parser('runserver',
             help='runs the Flask development Server')
     cmd_runserver.add_argument('--config', default='production',
-            help='config to use, default: development')
+            help='config to use, default: production')
     cmd_runserver.set_defaults(func=runserver)
 
     cmd_runtests = sub_parsers.add_parser('runtests',
