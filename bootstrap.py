@@ -6,7 +6,7 @@ import subprocess
 
 PYTHON = 'python2'
 PYPI_BASE_URL = 'https://pypi.python.org/packages/source/v/virtualenv/'
-PYPI_PKG = 'virtualenv-12.0.7'
+PYPI_PKG = 'virtualenv-13.1.2'
 PKG_EXT = '.tar.gz'
 VENV_DIR = 'venv/'
 TMP_DIR = '_bootstrap/'
